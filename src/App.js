@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom'; 
+// import Login from './components/Login'; 
+// import Registration from './components/Registration'; 
+import Home from './views/Home'; 
+import LinearSearch from './views/Linear Search/Linear';
+import BinarySearch from './views/Binary Search/Binary';
+// import AlgorithmVisualizer from "../src/Bubble Sort/AlgorithmVisualizer";
+// import QuickSort from "../src/Quick Sort/QuickSort";
+// import MergeSort from "../src/Merge Sort/Merge-sort";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} /> 
+        <Route path="/Linear_Search" element={<LinearSearch />} /> 
+        <Route path="/Binary_Search" element={<BinarySearch />} /> 
+        {/* <Route path="/Bubble_sorting" element={<AlgorithmVisualizer />} /> 
+        <Route path="/Quick_Sorting" element={<QuickSort />} /> 
+        <Route path="/merge_Sorting" element={<MergeSort />} />  */}
+      </Routes>
     </div>
   );
 }
