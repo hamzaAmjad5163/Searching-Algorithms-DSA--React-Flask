@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { Container, Form, Button, Row, Col } from "react-bootstrap";
 import Navbar from "../../components/Navbar";
+
 const TwoPointersVisualizer = () => {
   const [array, setArray] = useState([]);
   const [target, setTarget] = useState("");

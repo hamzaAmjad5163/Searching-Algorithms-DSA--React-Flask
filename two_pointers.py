@@ -8,6 +8,7 @@ CORS(app)
 # Two Pointers Technique function that returns the steps
 def two_pointers(arr, target):
     steps = []
+    arr.sort()
     left, right = 0, len(arr) - 1
     while left < right:
         current_sum = arr[left] + arr[right]
