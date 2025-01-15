@@ -24,7 +24,7 @@ const NavbarComponent = () => {
             <NavDropdown.Item href="/Binary_Search">
               Binary Search Algorithm
             </NavDropdown.Item>
-            <NavDropdown.Item href="/merge_Sorting">
+            <NavDropdown.Item href="/two_pointer">
               Two Pointer Technique
             </NavDropdown.Item>
           </NavDropdown>
