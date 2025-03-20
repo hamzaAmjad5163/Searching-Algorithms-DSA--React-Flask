@@ -25,10 +25,6 @@ def binarysearch():
     array = data.get('array')
     target = data.get('target')
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a940dcb210e2bf080928cf75cb57dd436da56d32
     if not array or not isinstance(array, list):
         return jsonify({'error': 'Invalid array input'}), 400
     if target is None:
