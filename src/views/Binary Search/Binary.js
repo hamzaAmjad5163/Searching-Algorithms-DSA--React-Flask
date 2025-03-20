@@ -92,7 +92,11 @@ const BinarySearchVisualizer = () => {
           <Form.Group>
             <Row className="g-3">
               <Col md={6}>
+<<<<<<< HEAD
                 <Form.Label>Array(comma separated values):</Form.Label>
+=======
+                <Form.Label>Array (comma separated values):</Form.Label>
+>>>>>>> a940dcb210e2bf080928cf75cb57dd436da56d32
                 <Form.Control type="text" onChange={handleArrayChange} />
               </Col>
               <Col md={6}>

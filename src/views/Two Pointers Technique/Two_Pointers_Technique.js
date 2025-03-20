@@ -75,7 +75,10 @@ const TwoPointersVisualizer = () => {
     ));
   };
 
+<<<<<<< HEAD
   
+=======
+>>>>>>> a940dcb210e2bf080928cf75cb57dd436da56d32
   return (
     <>
       <Navbar />

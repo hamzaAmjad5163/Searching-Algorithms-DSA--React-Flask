@@ -30,7 +30,10 @@ const LinearSearchVisualizer = () => {
     }
   };
 
+<<<<<<< HEAD
   
+=======
+>>>>>>> a940dcb210e2bf080928cf75cb57dd436da56d32
   const renderSteps = () => {
     return steps.map((step, index) => (
       <div key={index} style={{ marginBottom: "10px" }}>
